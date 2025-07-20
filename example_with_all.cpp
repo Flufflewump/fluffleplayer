@@ -9,7 +9,7 @@ public:
     }
 };
 
-int main()
+int main2()
 {
     crow::SimpleApp app;
 
@@ -119,4 +119,6 @@ int main()
       .server_name("CrowCpp")
       .multithreaded()
       .run();
+
+    return 0;
 }

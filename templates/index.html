@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Controller</title>
+
+    <link rel="shortcut icon" href="static/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="static/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+
+    <script src="static/main.js"></script>
+</head>
+<body>
+
+    <div id="container">
+        <div class="button_row">
+            <img class="button" id= 'sub_button' src="static/img/subs.png" onclick="sendMessage('toggle subs')"><img class="button" src="static/img/framestep.png" onclick="sendMessage('frame step')"><img class="button" src="static/img/ff.png" onclick="sendMessage('skip op')"><img class="button" src="static/img/next.png" onclick="loadNext()">
+        </div>
+
+        <div class="button_row">
+            <img class="button" src="static/img/volumedown.png" onclick="sendMessage('volume down')"><img class="button" src="static/img/volumeup.png" onclick="sendMessage('volume up')">
+        </div>
+
+        <div class="button_row">
+            <img class="button" onclick="sendMessage('seek backward')" src="static/img/back5.png"><img class="big_button" id="play_pause" onclick="sendMessage('play/pause')" src="static/img/play.png"><img class="button" onclick="sendMessage('seek forward')" src="static/img/fwd5.png">
+        </div>
+
+        <div class="folder_row">
+            <img class="button folder_button" src="static/img/folder.png" onclick="changeDir()"><select id="file_select" onchange="loadFile()"></select>
+        </div>
+
+    </div>
+
+</body>

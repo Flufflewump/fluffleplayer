@@ -1,0 +1,70 @@
+html,body {
+    box-sizing: border-box;
+}
+*, *:before, *:after { box-sizing: inherit; }
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #202020;
+
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    height: 100vh;
+    margin: 0 auto;
+
+    max-width: 31.25em;;
+    min-width: 18.75em;
+}
+
+.button_row {
+    text-align: center;
+    position: relative;
+}
+
+.folder_row {
+  text-align: left;
+  position: relative;
+}
+
+.button {
+    width: 25%;
+    height: auto;
+}
+
+.folder_button {
+  width: 28px;
+  height: 22px;
+  margin: 2px;
+}
+
+.big_button {
+    height: 50%;
+    width: 50%;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+select {
+    max-width: 90%;
+    overflow: hidden;
+
+    background-color: #404040;
+    color: #ffffff;
+    font-size: 1em;
+
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    border: 0;
+}

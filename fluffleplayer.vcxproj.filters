@@ -18,10 +18,30 @@
     <ClInclude Include="crow_all.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="MpvController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="example_with_all.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MpvController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="static\main.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="static\style.css">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="templates\index.html">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

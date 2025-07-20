@@ -20,9 +20,17 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="crow_all.h" />
+    <ClInclude Include="MpvController.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="example_with_all.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MpvController.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="static\main.js" />
+    <None Include="static\style.css" />
+    <None Include="templates\index.html" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
